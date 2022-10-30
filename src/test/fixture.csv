@@ -1,0 +1,6 @@
+Beneficiary ID,Payment Currency,Payment Amount,Payment Reference
+100001,GBP,100,Invoice 1
+100002,GBP,150.5,Invoice 2
+100003,GBP,120.75,Invoice 3
+,GBP,122,Invoice 4
+100005,GBP,255,Invoice 5
