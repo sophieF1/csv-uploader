@@ -1,1 +1,1 @@
-[{"id": 1, "name": "test test", "currency": "GBP", "date": "29-10-2022", "paymentRef": "1", "amount": 500, "approvals": 1, "status": "Completed", "action": "none"},{"id": 2, "name": "test test", "currency": "GBP", "date": "29-10-2022", "paymentRef": "2", "amount": 500, "approvals": 1, "status": "Completed", "action": "none"}]
+[{"id": 1, "currency": "GBP", "amount": 500,  "ref": "12"}, {"id": 2, "currency": "GBP", "amount": 5000,  "ref": "23"}]

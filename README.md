@@ -2,10 +2,16 @@
 
 React web app that allows you to upload and parse CSV files and display in a table format. 
 
+CSV Files are required to be uploaded in the format found in `src/test/fixture.csv`
+
+An example of a file containing invalid data can be found in `src/test/fixtureWithNullValues.csv`
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, to start and run:
+
+### `npm install`
 
 ### `npm start`
 

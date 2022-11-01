@@ -1,13 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-// External
-import toast from "react-hot-toast";
-
-// Components
-import CustomIcon from "./CustomIcon";
-
-// Styles
 export const NotificationCard = styled.div`
   background: ${props => props.bgColor};
   border-radius: 22px;
@@ -37,6 +30,8 @@ export const NotificationTitle = styled.h3`
 `;
 export const NotificationDescription = styled.p`
   color: white;
+  text-align: left;
+  margin-left: 40px;
   font-family: Calibri
 `;
 export const NotificationIconButton = styled.button`
@@ -54,7 +49,6 @@ const ToastNotification = ({
   bgColor,
   title,
   message,
-  icon
 }) => {
 
   return (

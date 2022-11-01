@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import AddFile from '../utils/AddFile.js';
+import UploadFile from '../utils/UploadFile';
 
 const Container = styled.div`
     margin-top: 20px;
@@ -27,7 +27,7 @@ const HomePage = () => {
                 <Header>
                 </Header>
                 <Section>
-                    <AddFile />
+                    <UploadFile />
                 </Section>
             </Container>
         </>
